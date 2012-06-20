@@ -1,0 +1,12 @@
+Simple Android animation for button or other elements 
+
+The animation loads on entering the screen
+
+Steps to follow.
+
+1) Implement the AnimationListener interface
+2) Define animation in anim folder (I created left to right and right to left two animation files.)
+3) Load the animation with following command  "Animation animation=AnimationUtils.loadAnimation(this,R.anim.left_to_right);"
+4) Add the animation listeners "animation.setAnimationListener(this);"
+5) Get the target id (in this case the buttons )Button b1=(Button) findViewById(R.id.Button01);
+6) Apply the animation
